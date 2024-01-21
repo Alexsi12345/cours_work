@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="1000.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.controllers.ContactController">
+    <top>
+        <AnchorPane prefHeight="28.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="418.0" layoutY="3.0" prefHeight="29.0" prefWidth="238.0" text="Контакты" AnchorPane.leftAnchor="418.0" AnchorPane.rightAnchor="473.20000000000005" AnchorPane.topAnchor="3.0">
+                    <font>
+                        <Font name="Chalkboard SE Light" size="28.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </top>
+    <center>
+        <AnchorPane prefHeight="700.0" prefWidth="1000.0">
+            <children>
+                <SplitPane layoutX="144.0" layoutY="40.0" prefHeight="700.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="698.0" prefWidth="433.0" styleClass="table-view">
+                            <children>
+                                <AnchorPane layoutX="884.0" layoutY="74.0" maxHeight="-Infinity" maxWidth="588.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="824.0" prefWidth="586.0" AnchorPane.bottomAnchor="112.0" AnchorPane.leftAnchor="610.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" />
+                        <TextArea layoutX="-1.0" layoutY="-8.0" prefHeight="716.0" prefWidth="1200.0" text="Дорогие друзья и партнеры, приветствуем вас в разделе контактов нашей девелоперской компании. Мы стремимся к открытому и прозрачному общению,&#10;и готовы находиться на связи с вами в любое удобное время. Ниже представлена более подробная информация о том, как связаться с нами.&#10;&#10;Общая информация:&#10;Адрес офиса:&#10;Приходите в гости по адресу: [Улица, Город, Страна, Почтовый индекс]. Мы всегда рады видеть вас в нашем офисе!&#10;&#10;Электронная почта:&#10;Напишите нам на info@yourcompany.com для общих вопросов и запросов.&#10;&#10;Телефон:&#10;Звоните нам по номеру [+7 (XXX) XXX-XX-XX]. Наша дружелюбная команда ответит на ваши звонки с понедельника по пятницу с 9:00 до 18:00.&#10;&#10;Отдел продаж:&#10;Электронная почта:&#10;Если у вас есть вопросы о продуктах или вы интересуетесь нашими услугами, пишите на sales@yourcompany.com.&#10;&#10;Телефон отдела продаж:&#10;Для консультаций и согласования сотрудничества звоните по номеру [+7 (XXX) XXX-XX-XX].&#10;&#10;Техническая поддержка:&#10;Электронная почта поддержки:&#10;Если у вас возникли проблемы с нашими продуктами, обращайтесь по адресу support@yourcompany.com.&#10;&#10;Телефон технической поддержки:&#10;Наша служба поддержки готова помочь вам по телефону [+7 (XXX) XXX-XX-XX].&#10;&#10;Карьера и рекрутинг:&#10;Электронная почта отдела кадров:&#10;Если вы мечтаете присоединиться к нашей команде, отправляйте свое резюме на careers@yourcompany.com.&#10;&#10;Вакансии:&#10;Посмотрите актуальные вакансии на [странице вакансий](ссылка на страницу вакансий). Мы всегда открыты для талантливых профессионалов.&#10;&#10;Социальные сети:&#10;Следите за нашими новостями и обновлениями через социальные сети:&#10;&#10;LinkedIn&#10;Twitter&#10;Facebook&#10;Instagram&#10;Форма обратной связи:&#10;Если у вас есть конкретные вопросы или предложения, воспользуйтесь нашей [формой обратной связи](ссылка на форму обратной связи). Ваше мнение важно для нас, и мы готовы рассмотреть все ваши пожелания и предложения.&#10;&#10;Не стесняйтесь обращаться к нам по любым вопросам. Благодарим за доверие и интерес к нашей компании!" />
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>
